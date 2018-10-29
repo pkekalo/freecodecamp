@@ -1,5 +1,8 @@
 body {
 	background-color: orange;
+	background-image: url("http://paperlief.com/images/autumn-leaves-tumblr-wallpaper-1.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
 	text-align: center;
 }
 
@@ -28,4 +31,8 @@ img {
 #img-div {
 	padding-top: 5%;
 	padding-bottom: 5%;
+}
+
+footer {
+	color: rgb(176, 220, 165);
 }
