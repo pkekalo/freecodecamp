@@ -24,7 +24,9 @@ h2 {
 }
 
 img {
-	width: 100%;
+	display: block;
+	max-width: 100%; 
+	width: auto;
 	height: auto;
 }
 
@@ -34,5 +36,5 @@ img {
 }
 
 footer {
-	color: rgb(176, 220, 165);
+	color: white;
 }
