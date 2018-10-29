@@ -1,0 +1,26 @@
+body {
+	background-color: orange;
+	text-align: center;
+}
+
+#main {
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  font-family: Aral;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+.container {
+	padding-top: 5%;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
