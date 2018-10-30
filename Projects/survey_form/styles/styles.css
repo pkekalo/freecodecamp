@@ -59,6 +59,11 @@ h3 {
 button {
 	background: repeating-linear-gradient(90deg, green 0%, yellow 50%, red 100%);
 	color: black;
-	
 	width: 200px;
+}
+
+textarea {
+	color: red;
+	width: 40%;
+	margin-left: 2%;
 }
