@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 	
+		<link rel="stylesheet" href= "styles/styles.css">
+		<title> Survey Form </title>
+	</head>
+	<body>
+		<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+		<h1 id="title"> IQ test </h1>
+		<p id="description">This test will show your Intelligence Quotient (IQ) which can describe your human intalagence<p> 
+		<form id="survey-form">
+			<label id="name-label">* Name: </label>
+			<input id="name" type="text" placeholder="Enter your name..." required>
+			<label id="email-label">* Email: </label>
+			<input id="email" type="email" placeholder="Enter your email..." required>
+			<label id="number-label">* Age: </label>
+			<input id="number" type="number" min="1" max="125" placeholder="Age..." required>
+			
+
+			<br>
+			<fieldset >
+				<legend>Test:</legend>
+				<div class="bottomBorder">
+					<label>2 + 2 * 2 = </label>
+					<select id="dropdown" >
+						<option disabled value>Select an option</option>
+						<option value="No">4</option>
+						<option value="Yes">6</option>
+						<option value="No">2</option>
+						<option value="No">8</option>
+					</select>
+				</div>
+
+				<div class="bottomBorder radio1">
+					<img src="https://www.nairaland.com/attachments/2237541_usmankawo20150322231504_jpeg0aa4da1e75c33671f5d8e0a9f6f6e6e7">
+					<label>10</label>
+					<input value="Maybe" type="radio" name="radio1">
+					<label>37</label>
+					<input value="No" type="radio" name="radio1">
+					<label>73</label>
+					<input value="No" type="radio" name="radio1">
+					<label>410</label>
+					<input value="Yes" type="radio" name="radio1">
+				</div>
+			</fieldset>
+		</form> 
+	</body>
+</html>	

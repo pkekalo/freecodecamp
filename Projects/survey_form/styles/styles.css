@@ -1,0 +1,50 @@
+body {
+	color: green;
+	text-align: center;
+	background-image: url("https://i.pinimg.com/originals/20/92/43/209243fa2681a21efb0ca8751b606680.jpg");
+	background-size: cover;
+}
+p {
+	margin-top: 2%;
+}
+form {
+	text-align: left;
+}
+label {
+	color: red;
+	margin-left: 2%;
+	margin-bottom: 2%;
+}
+
+/*#border {
+	border-style: dotted;
+	border-width: 2px;
+	border-color: white;
+}*/
+
+img {
+	width: 20%;
+	margin-left: 2%;
+}
+
+fieldset {
+	color: yellow;
+}
+
+legend{ 
+	color: green;
+	border-bottom: 1px solid green
+}
+
+select {
+	margin-right: 2%;
+	color: black;
+}
+
+.bottomBorder {
+	border-bottom: 1px solid green;
+}
+
+.radio1 {
+	color: red;
+}
