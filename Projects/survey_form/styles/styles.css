@@ -3,6 +3,7 @@ body {
 	text-align: center;
 	background-image: url("https://i.pinimg.com/originals/20/92/43/209243fa2681a21efb0ca8751b606680.jpg");
 	background-size: cover;
+	font-family: "Monospace";
 
 }
 p {
@@ -41,8 +42,7 @@ select {
 
 #button {
 	text-align: center;
-	color: red;
-	margin-bottom: 2%;
+	padding: 2%;
 }
 
 #survey-form {
@@ -52,10 +52,13 @@ select {
 	padding: 2%;
 }
 
-ul {
-	background-color: blue;
-}
-
 h3 {
 	color: green;
+}
+
+button {
+	background: repeating-linear-gradient(90deg, green 0%, yellow 50%, red 100%);
+	color: black;
+	
+	width: 200px;
 }
