@@ -3,6 +3,7 @@ body {
 	text-align: center;
 	background-image: url("https://i.pinimg.com/originals/20/92/43/209243fa2681a21efb0ca8751b606680.jpg");
 	background-size: cover;
+
 }
 p {
 	margin-top: 2%;
@@ -16,12 +17,6 @@ label {
 	margin-bottom: 2%;
 }
 
-/*#border {
-	border-style: dotted;
-	border-width: 2px;
-	border-color: white;
-}*/
-
 img {
 	width: 20%;
 	margin-left: 2%;
@@ -29,11 +24,6 @@ img {
 
 fieldset {
 	color: yellow;
-}
-
-legend{ 
-	color: green;
-	border-bottom: 1px solid green
 }
 
 select {
@@ -47,4 +37,17 @@ select {
 
 .redText {
 	color: red;
+}
+
+#button {
+	text-align: center;
+	color: red;
+	margin-bottom: 2%;
+}
+
+#survey-form {
+	background-color: black;
+	width: 75%;
+	margin: 0 auto;
+	padding: 2%;
 }
