@@ -11,7 +11,7 @@ form {
 	text-align: left;
 }
 label {
-	color: red;
+	color: yellow;
 	margin-left: 2%;
 	margin-bottom: 2%;
 }
@@ -45,6 +45,6 @@ select {
 	border-bottom: 1px solid green;
 }
 
-.radio1 {
+.redText {
 	color: red;
 }
