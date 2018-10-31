@@ -1,7 +1,7 @@
 body {
 	color: green;
 	text-align: center;
-	background-image: url("https://i.pinimg.com/originals/20/92/43/209243fa2681a21efb0ca8751b606680.jpg");
+	background-image: url("https://i.pinimg.com/originals/60/fb/bb/60fbbb203736334204c60843408e10f7.jpg");
 	background-size: cover;
 	font-family: "Monospace";
 
@@ -14,6 +14,7 @@ form {
 }
 label {
 	color: yellow;
+	margin-top: 2%;
 	margin-left: 2%;
 	margin-bottom: 2%;
 }
@@ -38,6 +39,7 @@ select {
 
 .redText {
 	color: red;
+	width: 51px;
 }
 
 #button {
@@ -46,7 +48,7 @@ select {
 }
 
 #survey-form {
-	background-color: black;
+	background: black;
 	width: 75%;
 	margin: 0 auto;
 	padding: 2%;
@@ -59,10 +61,10 @@ h3 {
 button {
 	background: repeating-linear-gradient(90deg, green 0%, yellow 50%, red 100%);
 	color: black;
-	width: 200px;
 	font-weight: 900;
 	border-width: 2px;
 	border-color: white;
+	padding: 0.5% 5% 0.5% 5%;
 }
 .button:hover { 
     background: repeating-linear-gradient(90deg,  red 0%, yellow 50%, green 100%);
@@ -73,4 +75,14 @@ textarea {
 	color: red;
 	width: 40%;
 	margin-left: 2%;
+	margin-bottom: 2%;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+}
+
+.input-field {
+	width: 175px;
 }
