@@ -60,6 +60,13 @@ button {
 	background: repeating-linear-gradient(90deg, green 0%, yellow 50%, red 100%);
 	color: black;
 	width: 200px;
+	font-weight: 900;
+	border-width: 2px;
+	border-color: white;
+}
+.button:hover { 
+    background: repeating-linear-gradient(90deg,  red 0%, yellow 50%, green 100%);
+    color: blue;
 }
 
 textarea {
