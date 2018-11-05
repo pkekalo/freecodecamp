@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -15,11 +16,11 @@ body {
 
 #header {
 	background: black;
-	color: pink;
-	height: 100px;
+	color: green;
+	height: auto;
 	width: 100%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	border-bottom: 4px solid gray;
 	border-top: 4px solid gray;
   	margin-bottom: 20px;
@@ -27,15 +28,19 @@ body {
   	top: 0;
 }
 
+
+
 img {
 	height: 200px;
 	width: auto;
 	margin: 10px 0 20px 0;
 }
 
+
+
 #header-img {
-	height: 100%;
-	width: auto;
+	height: 100px;
+	width: 100px;
 	margin: 0;
 }
 
@@ -44,26 +49,25 @@ img {
 }
 
 h1 {
-  margin: auto;
+	margin: auto;
 }
 
 h2 {
-	padding-top: 100px;
+	padding-top: 150px;
+}
+
+h3 {
+	padding-top: 150px;
 }
 
 #nav-bar {
     width: 33.33%;
     margin: auto 0;
-    position: fixed;
     display: flex;
     justify-content: space-around;
     background: black;
 
-    @media (max-width: 650px) {
-    	background-color: red;
-    	display: flex;
-    	justify-content: wrap;
-    }
+   
 }
 
 
@@ -74,14 +78,43 @@ ul {
 
 }
 
+@media (max-width: 650px) {
+	#ul {
+		flex-direction: column;
+	}
+}
+
 li {
 	list-style: none;
 	text-decoration: underline;
 	margin-right: 10px;
 }
+@media (max-width: 650px) {
+	#li {
+		margin-bottom: 10px;
+	}
+}
+
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: pink;
+}
 
 p {
 	color: black;
-	text-align: left;
-	margin-bottom: 100px;
+	text-align: center;
+}
+form {
+	padding-bottom: 20px;
+}
+#submit {
+	color: black;
+}
+
+iframe {
+	margin: 10px 0 20px 0;
 }
