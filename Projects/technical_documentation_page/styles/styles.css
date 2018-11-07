@@ -1,3 +1,30 @@
 h1 {
 	color: blue;
+	text-align: center;
+}
+
+code {
+	width: 250px;
+	background: gray;
+	font-size: 20px;
+	padding:5px 10px 5px 10px;
+}
+
+#code {
+	text-align: right;
+	padding-right: 100px;
+}
+
+p {
+	padding-left: 5em;
+	margin-left: 5em;
+}
+
+header {
+	margin-top: 100px;
+}
+
+span {
+	background-color: yellow;
+	font-weight: bold;
 }
