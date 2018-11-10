@@ -31,6 +31,18 @@ span {
 	font-weight: bold;
 }
 
+#navbar {
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:auto;
+  height:100%;
+  border-right:solid;
+  border-color:rgba(0,22,22,0.4)
+}
+
+
+
 #navbars {
 	display: flex;
 	flex-direction: column;
@@ -39,4 +51,8 @@ span {
 .nav-link {
 	text-align: center;
 	margin-bottom: 20px;
+}
+
+@media {
+
 }
