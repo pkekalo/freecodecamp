@@ -6,26 +6,27 @@
 	</head>
 	<body>
 		<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
+		<nav id="navbar">
+			<h2> Go to: </h2>
+			<ul id="navbar-links"> 
+				<li>
+					<a href="#welcome-section">About Me</a>
+				</li>
+				<li>
+					<a href="#projects">Projects</a>
+				</li>
+				<li>
+					<a href="#profile-link">Contacts</a>
+				</li>
+			</ul>
+		</nav>
 		<section id="welcome-section">
-			<h1>My Personal Portfolio Webpage</h1>
-			<nav id="navbar">
-				<h1> Go to: </h1>
-				<ul id="navbar-links"> 
-					<li>
-						<a href="#about">About</a>
-					</li>
-					<li>
-						<a href="#projects">Projects</a>
-					</li>
-					<li>
-						<a href="#profile-link">Contacts</a>
-					</li>
-				</ul>
-			</nav>
+			<h1 class="navbar-space">My Personal Portfolio Webpage</h1>
+			<p>My name is Petr Kekalo</p>
 		</section>
 		<section id="projects">
-				<ul> 
+			<h2 class="navbar-space">Take a look on my projects</h2>
+				<ul class="projects"> 
 					<li>
 						<a class="project-title" href="https://codepen.io/camypo13/pen/pddbRd">A Tribute Page</a>
 					</li>
@@ -43,10 +44,11 @@
 						<a class="project-title" href="https://codepen.io/camypo13/pen/KyyOmG?editors=1100">A Personal Portfolio Webpage</a>
 					</li>
 				</ul>
-				<a id="profile-link" href="https://github.com/pkekalo" target="_blank">
-					Github 
-				</a>
-			<a href="google.com"></a>
+		</section>
+		<section id="contacts">
+			<h2 class="navbar-space">Feel free to contact me</h2>
+			<a id="profile-link" href="https://github.com/pkekalo" target="_blank"><img id="github" src="https://camo.githubusercontent.com/7710b43d0476b6f6d4b4b2865e35c108f69991f3/68747470733a2f2f7777772e69636f6e66696e6465722e636f6d2f646174612f69636f6e732f6f637469636f6e732f313032342f6d61726b2d6769746875622d3235362e706e67"><br> Github
+			</a>
 		</section>
 	</body>
 </html>
