@@ -1,21 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: rgb(0, 153, 255);
   color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+section {
+  height: 100vh;
 }
 
 
+#navbar {
+  display:  flex;
+  justify-content: space-around;
+  flex-direction:  row;
+  position: relative;
+  top: 0;
+  z-index: 1;
+  background: black;
 
-button {
-  background-color: green; /* Green */
-    border: none;
-    color: white;
-    margin: 16px;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+}
+
+#navbar-links {
+  display: flex;
+  flex-direction: column;
 }
 
 
- 
+a {
+  font-size: 20px;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
