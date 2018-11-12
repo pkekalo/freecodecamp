@@ -30,7 +30,6 @@ h2 {
 
 section {
   height: 100vh;
-  min-height: 500px;
   background: lightblue;
 }
 
@@ -90,7 +89,7 @@ p {
   width: 200px;
 }
 
-@media only screen and (max-width: 815px) {
+@media only screen and (max-width: 815px) and (max-height: 500px) {
   /*  for mobile phones*/
 
   h1 {
@@ -122,5 +121,5 @@ p {
     margin-top: 20px;
     width: 100px;
   }
-  
+
 }
