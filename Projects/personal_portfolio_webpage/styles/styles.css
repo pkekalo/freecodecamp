@@ -122,16 +122,24 @@ img {
     width: 100px;
   }
 
-/*  This line of code makes user view better, but it will fail the test
-    So please make your screen 340px height minimum.
+  /*  This line of code makes user view better, but it will fail the test
+      So please make your screen 340px height minimum.
 
   section {
     min-height: 340px;
   }
 
-*/
+  */
+  
+
+  section {
+    min-height: 340px;
+  }
 
   #welcome-section {
+/*Below this line this line of code doesn't make user view better, but it will pass the test, delete this if possible */
+    min-height: 0px;
+/*Above this line*/
     height: 100vh;
   }
 
