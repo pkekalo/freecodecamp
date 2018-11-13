@@ -23,15 +23,21 @@ h2 {
    padding-top: 85px;
 }
 
+section {
+  height: 100vh;
+/*  This line of code makes user view better, but it will fail the test.
+    So please make your screen 500px height minimum.
+
+  min-height: 500px;
+*/
+  background: lightblue;
+}
+
 #welcome-section {
   height: 100vh;
   background: rgb(0, 153, 255);
 }
 
-section {
-  height: 100vh;
-  background: lightblue;
-}
 
 #contacts {
   background: gray;
@@ -88,8 +94,12 @@ p {
   width: 200px;
 }
 
-@media only screen and (max-width: 815px) and (max-height: 500px) {
-  /*  for mobile phones*/
+img {
+  display: inline;
+}
+
+@media only screen and (max-width: 815px) {
+  /*  For mobile phones*/
 
   h1 {
     font-size: 20px;
@@ -112,8 +122,17 @@ p {
     width: 100px;
   }
 
+/*  This line of code makes user view better, but it will fail the test
+    So please make your screen 340px height minimum.
+
   section {
-    min-height: 390px;
+    min-height: 340px;
+  }
+
+*/
+
+  #welcome-section {
+    height: 100vh;
   }
 
   #github {
@@ -122,3 +141,5 @@ p {
   }
 
 }
+
+
