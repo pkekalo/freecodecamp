@@ -3,3 +3,5 @@
 const magic = ()  => {
   return new Date();
 };
+
+//Passed FCC test

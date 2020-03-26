@@ -12,3 +12,5 @@ const HIGH_TEMPERATURES = {
 const { today, tomorrow } = HIGH_TEMPERATURES;
 
 // Only change code above this line
+
+//Passed FCC test
