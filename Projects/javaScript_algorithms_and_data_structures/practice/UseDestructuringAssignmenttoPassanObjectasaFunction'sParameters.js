@@ -1,5 +1,6 @@
 //Use destructuring assignment within the argument to the function half to send only max and min inside the function.
-// (Initial code)
+// (Final code)
+// (Passed FCC test cases)
 
 const stats = {
   max: 56.78,
@@ -11,5 +12,5 @@ const stats = {
 };
 
 // Only change code below this line
-const half = (stats) => (stats.max + stats.min) / 2.0; 
+const half = ({max, min}) => (max +min) / 2.0; 
 // Only change code above this line
