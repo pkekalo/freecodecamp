@@ -11,7 +11,10 @@ function makeList(arr) {
   "use strict";
 
   // Only change code below this line
-  const resultDisplayArray = null;
+  const failureItems = [];
+  for (let i = 0; i < arr.length; i++) {
+    failureItems.push(`<li class="text-warning">${arr[i]}</li>`)
+  }
   // Only change code above this line
 
   return resultDisplayArray;
