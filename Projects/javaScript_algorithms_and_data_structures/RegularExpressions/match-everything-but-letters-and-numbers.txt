@@ -1,6 +1,7 @@
 // Instructions: Use the shorthand character class \W to count the number of non-alphanumeric characters in various quotes and strings.
-// (Init)
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
 let quoteSample = "The five boxing wizards jump quickly.";
-let nonAlphabetRegex = /change/; // Change this line
+let nonAlphabetRegex = /\W/g;
 let result = quoteSample.match(nonAlphabetRegex).length;
