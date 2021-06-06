@@ -1,7 +1,8 @@
 // Instructions: Use lookaheads in the pwRegex to match passwords that are greater than 5 characters long, and have two consecutive digits.
 
-// (Init)
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
 let sampleWord = "astronaut";
-let pwRegex = /change/; // Change this line
+let pwRegex = /(?=\w{6})(?=\w*\d{2})/;
 let result = pwRegex.test(sampleWord);
