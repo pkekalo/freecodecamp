@@ -1,6 +1,7 @@
 // Instructions: Fix the regex /<.*>/ to return the HTML tag <h1> and not the text "<h1>Winter is coming</h1>". Remember the wildcard . in a regular expression matches any character.
-// (Init)
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
 let text = "<h1>Winter is coming</h1>";
-let myRegex = /<.*>/; // Change this line
+let myRegex = /<.*?>/;
 let result = text.match(myRegex);
