@@ -1,5 +1,6 @@
 // Instructions: Complete the regex waldoRegex to find "Waldo" in the string waldoIsHiding with a literal match.
-// (Init)
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 let waldoIsHiding = "Somewhere Waldo is hiding in this text.";
-let waldoRegex = /search/; // Change this line
+let waldoRegex = /Waldo/;
 let result = waldoRegex.test(waldoIsHiding);
