@@ -1,7 +1,8 @@
 // Instructions: Change the regex favRegex to match both the American English (favorite) and the British English (favourite) version of the word.
 
-// (Init)
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
 let favWord = "favorite";
-let favRegex = /change/; // Change this line
+let favRegex = /favou?rite/;
 let result = favRegex.test(favWord);
