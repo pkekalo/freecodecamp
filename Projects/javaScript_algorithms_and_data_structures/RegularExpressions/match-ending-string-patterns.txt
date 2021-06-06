@@ -1,6 +1,7 @@
 // Instructions: Use the anchor character ($) to match the string caboose at the end of the string caboose.
-// (Init)
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
 let caboose = "The last car on a train is the caboose";
-let lastRegex = /change/; // Change this line
+let lastRegex = /caboose$/;
 let result = lastRegex.test(caboose);
