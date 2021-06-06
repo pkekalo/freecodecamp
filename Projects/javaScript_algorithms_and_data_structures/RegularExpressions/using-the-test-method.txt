@@ -1,5 +1,5 @@
 // Instructions: Apply the regex myRegex on the string myString using the .test() method.
-// (This is final code)
+// (This is a final code)
 // (All FreeCodeCamp tests are passed)
 let myString = "Hello, World!";
 let myRegex = /Hello/;
