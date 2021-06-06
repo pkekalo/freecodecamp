@@ -1,6 +1,7 @@
 // Instructions: Use the shorthand character class \w to count the number of alphanumeric characters in various quotes and strings. 
-// (Init)
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
 let quoteSample = "The five boxing wizards jump quickly.";
-let alphabetRegexV2 = /change/; // Change this line
+let alphabetRegexV2 = /\w/g;
 let result = quoteSample.match(alphabetRegexV2).length;
