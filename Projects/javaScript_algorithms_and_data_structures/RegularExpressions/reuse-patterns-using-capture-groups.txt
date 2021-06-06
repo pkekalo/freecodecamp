@@ -1,8 +1,8 @@
 // Instructions: Use capture groups in reRegex to match a string that consists of only the same number repeated exactly three times separated by single spaces.
 
-// (Init)
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
 let repeatNum = "42 42 42";
-let reRegex = /change/; // Change this line
+let reRegex = /^(\d+)\s\1\s\1$/;
 let result = reRegex.test(repeatNum);
-
