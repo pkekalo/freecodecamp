@@ -1,7 +1,7 @@
 // Instructions: Change the regex userCheck to fit the constraints listed above.
-// (Init)
-
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
 let username = "JackOfAllTrades";
-let userCheck = /change/; // Change this line
+let userCheck = /^[a-z][a-z]+\d*$|^[a-z]+\d+\d$/i; 
 let result = userCheck.test(username);
