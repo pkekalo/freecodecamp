@@ -1,6 +1,8 @@
-// Instructions: Change the regex haRegex to match the word Hazzah only when it has four or more letter z's. 
-// (Init)
+// Instructions: Change the regex haRegex to match the word Hazzah only when it has four or more letter z's.
+
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
 let haStr = "Hazzzzah";
-let haRegex = /change/; // Change this line
+let haRegex = /Haz{4,}ah/i;
 let result = haRegex.test(haStr);
