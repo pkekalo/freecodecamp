@@ -1,6 +1,7 @@
 // Instructions: Change the regex countNonWhiteSpace to look for multiple non-whitespace characters in a string.
-// (Init)
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
 let sample = "Whitespace is important in separating words";
-let countNonWhiteSpace = /change/; // Change this line
+let countNonWhiteSpace = /\S/g;
 let result = sample.match(countNonWhiteSpace);
