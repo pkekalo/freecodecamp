@@ -1,6 +1,7 @@
 // Instructions: Complete the regex petRegex to match the pets dog, cat, bird, or fish.
-// (Init)
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
 let petString = "James has a pet cat.";
-let petRegex = /change/; // Change this line
+let petRegex = /dog|cat|bird|fish/; // Change this line
 let result = petRegex.test(petString);
