@@ -1,6 +1,7 @@
 // Instructions: You want to find matches when the letter s occurs one or more times in Mississippi. Write a regex that uses the + sign.
-// (Init)
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
 let difficultSpelling = "Mississippi";
-let myRegex = /change/; // Change this line
+let myRegex = /s+/gi;
 let result = difficultSpelling.match(myRegex);
