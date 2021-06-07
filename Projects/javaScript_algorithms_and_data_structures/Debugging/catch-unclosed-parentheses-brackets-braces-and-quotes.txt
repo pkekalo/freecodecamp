@@ -1,7 +1,8 @@
 // Instructions: Fix the two pair errors in the code.
 
-// (Init)
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
-let myArray = [1, 2, 3;
-let arraySum = myArray.reduce((previous, current =>  previous + current);
+let myArray = [1, 2, 3];
+let arraySum = myArray.reduce((previous, current) =>  previous + current);
 console.log(`Sum of array values is: ${arraySum}`);
