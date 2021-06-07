@@ -1,12 +1,13 @@
 // Instructions: Fix the condition so the program runs the right branch, and the appropriate value is assigned to result.
 
-// (Init)
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
 let x = 7;
 let y = 9;
 let result = "to come";
 
-if(x = y) {
+if(x === y) {
   result = "Equal!";
 } else {
   result = "Not equal!";
