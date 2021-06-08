@@ -1,13 +1,12 @@
 // Instructions: Fix the two indexing errors in the following function so all the numbers 1 through 5 are printed to the console.
 
-// (Init)
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
 function countToFive() {
   let firstFive = "12345";
   let len = firstFive.length;
-  // Only change code below this line
-  for (let i = 1; i <= len; i++) {
-  // Only change code above this line
+  for (let i = 0; i < len; i++) {
     console.log(firstFive[i]);
   }
 }
