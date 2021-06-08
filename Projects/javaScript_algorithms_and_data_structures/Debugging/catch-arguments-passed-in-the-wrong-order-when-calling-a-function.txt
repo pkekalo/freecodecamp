@@ -1,6 +1,7 @@
 // Instructions: The function raiseToPower raises a base to an exponent. Unfortunately, it's not called properly - fix the code so the value of power is the expected 8.
 
-// (Init)
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
 function raiseToPower(b, e) {
   return Math.pow(b, e);
@@ -8,5 +9,5 @@ function raiseToPower(b, e) {
 
 let base = 2;
 let exp = 3;
-let power = raiseToPower(exp, base);
+let power = raiseToPower(base, exp);
 console.log(power);
