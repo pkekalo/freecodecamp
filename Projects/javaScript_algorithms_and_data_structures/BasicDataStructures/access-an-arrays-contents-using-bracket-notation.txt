@@ -1,9 +1,9 @@
 // Instructions: In order to complete this challenge, set the 2nd position (index 1) of myArray to anything you want, besides the letter b.
 
-// (Init)
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
 let myArray = ["a", "b", "c", "d"];
-// Only change code below this line
+myArray[1] = "boba";
 
-// Only change code above this line
 console.log(myArray);
