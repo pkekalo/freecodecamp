@@ -1,6 +1,7 @@
 // Instructions: Finish writing the function so that it returns true if the object passed to it contains all four names, Alan, Jeff, Sarah and Ryan and returns false otherwise.
 
-// (Init)
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
 let users = {
   Alan: {
@@ -22,9 +23,15 @@ let users = {
 };
 
 function isEveryoneHere(userObj) {
-  // Only change code below this line
-
-  // Only change code above this line
+  if ('Alan' in userObj && 
+      'Jeff' in userObj &&
+       userObj.hasOwnProperty('Sarah') &&
+       userObj.hasOwnProperty('Ryan')
+  ) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 console.log(isEveryoneHere(users));
