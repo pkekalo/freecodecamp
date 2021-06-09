@@ -1,6 +1,7 @@
 // Instructions: A foods object has been created with three entries. Using the syntax of your choice, add three more entries to it: bananas with a value of 13, grapes with a value of 35, and strawberries with a value of 27.
 
-// (Init)
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
 let foods = {
   apples: 25,
@@ -8,8 +9,9 @@ let foods = {
   plums: 28
 };
 
-// Only change code below this line
-
-// Only change code above this line
+foods['bananas'] = 13;
+foods.grapes = 35;
+let strawberries = 'strawberries';
+foods.strawberries = 27; 
 
 console.log(foods);
