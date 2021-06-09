@@ -1,7 +1,7 @@
 // Instructions: Here we've defined an object userActivity, which includes another object nested within it. Set the value of the online key to 45.
 
-// (Init)
-
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
 let userActivity = {
   id: 23894201352,
@@ -12,8 +12,6 @@ let userActivity = {
   }
 };
 
-// Only change code below this line
-
-// Only change code above this line
+userActivity.data.online = 45;
 
 console.log(userActivity);
