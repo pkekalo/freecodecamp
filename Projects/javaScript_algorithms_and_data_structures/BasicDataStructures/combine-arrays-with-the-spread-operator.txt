@@ -1,10 +1,11 @@
 // Instructions: We have defined a function spreadOut that returns the variable sentence. Modify the function using the spread operator so that it returns the array ['learning', 'to', 'code', 'is', 'fun'].
 
-// (Init)
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
 function spreadOut() {
   let fragment = ['to', 'code'];
-  let sentence; // Change this line
+  let sentence = ['learning', ...fragment, 'is', 'fun'];
   return sentence;
 }
 
