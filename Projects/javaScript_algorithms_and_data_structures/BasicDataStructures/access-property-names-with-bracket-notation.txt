@@ -1,6 +1,7 @@
 // Instructions: We've defined a function, checkInventory, which receives a scanned item as an argument. Return the current value of the scannedItem key in the foods object. You can assume that only valid keys will be provided as an argument to checkInventory.
 
-// (Init)
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
 let foods = {
   apples: 25,
@@ -12,9 +13,7 @@ let foods = {
 };
 
 function checkInventory(scannedItem) {
-  // Only change code below this line
-  
-  // Only change code above this line
+  return foods[scannedItem];
 }
 
 console.log(checkInventory("apples"));
