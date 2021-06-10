@@ -1,7 +1,9 @@
 // Instructions: Create a dog object with name and numLegs properties, and set them to a string and a number, respectively.
 
-// (Init)
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
 let dog = {
-
+  name: "Rex",
+  numLegs: 4
 };
