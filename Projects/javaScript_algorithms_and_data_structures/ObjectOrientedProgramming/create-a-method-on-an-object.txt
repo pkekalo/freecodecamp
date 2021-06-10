@@ -1,0 +1,9 @@
+// Instructions: Using the dog object, give it a method called sayLegs. The method should return the sentence This dog has 4 legs.
+
+// (Init)
+
+let dog = {
+
+};
+
+dog.sayLegs();
