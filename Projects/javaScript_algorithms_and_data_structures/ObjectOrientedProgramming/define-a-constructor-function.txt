@@ -1,3 +1,10 @@
 // Instructions: Create a constructor, Dog, with properties name, color, and numLegs that are set to a string, a string, and a number, respectively.
 
-// (Init)
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
+
+function Dog() {
+  this.name = "Rex",
+  this.color = "black & brown",
+  this.numLegs = 4;
+}
