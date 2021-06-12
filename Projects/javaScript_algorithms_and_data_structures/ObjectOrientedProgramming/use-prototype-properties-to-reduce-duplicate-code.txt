@@ -1,0 +1,12 @@
+// Instructions: Add a numLegs property to the prototype of Dog
+
+// (Init)
+
+function Dog(name) {
+  this.name = name;
+}
+
+
+
+// Only change code above this line
+let beagle = new Dog("Snoopy");
