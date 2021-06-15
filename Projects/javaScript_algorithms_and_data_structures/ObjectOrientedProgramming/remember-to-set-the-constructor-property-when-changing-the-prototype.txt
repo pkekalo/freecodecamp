@@ -1,13 +1,13 @@
 // Instructions: Define the constructor property on the Dog prototype.
 
-// (Init)
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
 function Dog(name) {
   this.name = name;
 }
 
-// Only change code below this line
-
+Dog.prototype = {
   constructor: Dog,
   numLegs: 4,
   eat: function() {
