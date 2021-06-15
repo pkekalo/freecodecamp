@@ -1,6 +1,7 @@
 // Instructions: Use isPrototypeOf to check the prototype of beagle.
 
-// (Init)
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
 function Dog(name) {
   this.name = name;
@@ -8,5 +9,4 @@ function Dog(name) {
 
 let beagle = new Dog("Snoopy");
 
-// Only change code below this line
-
+Dog.prototype.isPrototypeOf(beagle);
