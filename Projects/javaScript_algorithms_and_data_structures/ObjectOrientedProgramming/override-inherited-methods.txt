@@ -1,6 +1,7 @@
 // Instructions: Override the fly() method for Penguin so that it returns the string Alas, this is a flightless bird.
 
-// (Init)
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
 function Bird() { }
 
@@ -10,11 +11,9 @@ function Penguin() { }
 Penguin.prototype = Object.create(Bird.prototype);
 Penguin.prototype.constructor = Penguin;
 
-// Only change code below this line
-
-
-
-// Only change code above this line
+Penguin.prototype.fly = function() {
+  return "Alas, this is a flightless bird.";
+}
 
 let penguin = new Penguin();
 console.log(penguin.fly());
