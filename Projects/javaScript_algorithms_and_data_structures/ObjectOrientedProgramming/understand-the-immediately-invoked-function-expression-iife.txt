@@ -1,9 +1,8 @@
 // Instructions: Rewrite the function makeNest and remove its call so instead it's an anonymous immediately invoked function expression (IIFE).
 
-// (Init)
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
-function makeNest() {
+(function () {
   console.log("A cozy nest is ready");
-}
-
-makeNest();
+})();
