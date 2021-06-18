@@ -2,7 +2,8 @@
 
 // Note: The data (the number of cups of tea) is supplied as the last argument. We'll discuss this more in later lessons.
 
-// (Init)
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
 // Function that returns a string representing a cup of green tea
 const prepareGreenTea = () => 'greenTea';
@@ -25,10 +26,8 @@ const getTea = (prepareTea, numOfCups) => {
   return teaCups;
 };
 
-// Only change code below this line
-const tea4GreenTeamFCC = null;
-const tea4BlackTeamFCC = null;
-// Only change code above this line
+const tea4GreenTeamFCC = getTea(prepareGreenTea, 27);
+const tea4BlackTeamFCC = getTea(prepareBlackTea, 13);
 
 console.log(
   tea4GreenTeamFCC,
