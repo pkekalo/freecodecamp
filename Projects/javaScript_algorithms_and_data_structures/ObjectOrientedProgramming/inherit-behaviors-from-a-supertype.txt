@@ -1,6 +1,7 @@
 // Instructions: Use Object.create to make two instances of Animal named duck and beagle.
 
-// (Init)
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
 function Animal() { }
 
@@ -11,7 +12,5 @@ Animal.prototype = {
   }
 };
 
-// Only change code below this line
-
-let duck; // Change this line
-let beagle; // Change this line
+let duck = Object.create(Animal.prototype);
+let beagle = Object.create(Animal.prototype);
