@@ -1,7 +1,8 @@
 // Instructions: The members of freeCodeCamp happen to love tea.
 //In the code editor, the prepareTea and getTea functions are already defined for you. Call the getTea function to get 40 cups of tea for the team, and store them in the tea4TeamFCC variable.
 
-// (Init)
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
 // Function that returns a string representing a cup of green tea
 const prepareTea = () => 'greenTea';
@@ -21,6 +22,4 @@ const getTea = (numOfCups) => {
   return teaCups;
 };
 
-// Only change code below this line
 const tea4TeamFCC = getTea(40);
-// Only change code above this line
