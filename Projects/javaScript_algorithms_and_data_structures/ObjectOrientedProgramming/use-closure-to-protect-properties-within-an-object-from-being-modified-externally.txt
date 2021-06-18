@@ -1,10 +1,12 @@
 // Instructions: Change how weight is declared in the Bird function so it is a private variable. Then, create a method getWeight that returns the value of weight 15.
 
-// (Init)
-
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
 function Bird() {
-  this.weight = 15;
+  let weight = 15;
 
-
+  this.getWeight = function() {
+    return weight;
+  }
 }
