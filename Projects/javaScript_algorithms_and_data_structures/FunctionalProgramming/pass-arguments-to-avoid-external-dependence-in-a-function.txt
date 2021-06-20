@@ -1,13 +1,12 @@
 // Instructions: Let's update the incrementer function to clearly declare its dependencies.
 // Write the incrementer function so it takes an argument, and then returns a result after increasing the value by one.
-// (Init)
+
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
 // The global variable
 var fixedValue = 4;
 
-// Only change code below this line
-function incrementer () {
-
-
-  // Only change code above this line
+function incrementer (num) {
+   return num + 1;
 }
