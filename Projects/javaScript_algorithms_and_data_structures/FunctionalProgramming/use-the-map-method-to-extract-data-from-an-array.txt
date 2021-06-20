@@ -1,6 +1,7 @@
 // Instructions: The watchList array holds objects with information on several movies. Use map on watchList to assign a new array of objects with only title and rating keys to the ratings variable. The code in the editor currently uses a for loop to do this, so you should replace the loop functionality with your map expression.
 
-// (Init)
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
 // The global variable
 var watchList = [
@@ -116,13 +117,9 @@ var watchList = [
   }
 ];
 
-// Only change code below this line
-
-var ratings = [];
-for(var i=0; i < watchList.length; i++){
-  ratings.push({title: watchList[i]["Title"],  rating: watchList[i]["imdbRating"]});
-}
-
-// Only change code above this line
+const ratings = watchList.map(film => ({
+  title: film["Title"],
+  rating: film["imdbRating"]
+}));
 
 console.log(JSON.stringify(ratings));
