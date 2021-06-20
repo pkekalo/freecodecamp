@@ -1,15 +1,16 @@
 // Instructions: Write your own Array.prototype.myMap(), which should behave exactly like Array.prototype.map(). You should not use the built-in map method. The Array instance can be accessed in the myMap method using this.
 
-// (Init)
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
 // The global variable
 var s = [23, 65, 98, 5];
 
 Array.prototype.myMap = function(callback) {
   var newArray = [];
-  // Only change code below this line
-  
-  // Only change code above this line
+  for (let i = 0; i < this.length; i++) {
+    newArray.push(callback(this[i]));
+  }
   return newArray;
 };
 
