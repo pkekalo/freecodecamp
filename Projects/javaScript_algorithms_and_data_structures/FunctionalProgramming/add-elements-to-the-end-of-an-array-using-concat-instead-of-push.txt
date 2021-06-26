@@ -1,12 +1,10 @@
 // Instructions: Change the nonMutatingPush function so it uses concat to add newItem to the end of original instead of push. The function should return an array.
 
-// (Init)
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
 function nonMutatingPush(original, newItem) {
-  // Only change code below this line
-  return original.push(newItem);
-
-  // Only change code above this line
+  return original.concat(newItem);
 }
 var first = [1, 2, 3];
 var second = [4, 5];
