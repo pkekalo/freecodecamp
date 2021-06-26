@@ -1,11 +1,10 @@
 // Instructions: Use the concat method in the nonMutatingConcat function to concatenate attach to the end of original. The function should return the concatenated array.
 
-// (Init)
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
 
 function nonMutatingConcat(original, attach) {
-  // Only change code below this line
-
-  // Only change code above this line
+  return original.concat(attach);
 }
 var first = [1, 2, 3];
 var second = [4, 5];
