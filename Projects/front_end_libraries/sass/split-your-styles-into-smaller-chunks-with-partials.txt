@@ -1,4 +1,5 @@
 <!-- The main.scss file -->
+@import 'variables'
 
-// Instructions: Write an @import statement to import a partial named _variables.scss into the main.scss file.
-
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
