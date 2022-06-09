@@ -7,7 +7,10 @@
     border: 1px solid black;
     margin: 0 auto;
   }
-
+.info-important {
+  @extend .info;
+  background-color: magenta;
+}
 
 
 
@@ -23,4 +26,5 @@
 
 // Intrusctions: Make a class .info-important that extends .info and also has a background-color set to magenta.
 
-// (Init)
+// (This is a final code)
+// (All FreeCodeCamp tests are passed)
