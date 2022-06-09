@@ -1,0 +1,4 @@
+<!-- The main.scss file -->
+
+// Instructions: Write an @import statement to import a partial named _variables.scss into the main.scss file.
+
