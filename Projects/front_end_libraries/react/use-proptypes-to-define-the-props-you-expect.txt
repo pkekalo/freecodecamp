@@ -3,7 +3,9 @@ const Items = (props) => {
 };
 
 // Change code below this line
-
+Items.propTypes = {
+  quantity: PropTypes.number.isRequired
+};
 // Change code above this line
 
 Items.defaultProps = {
