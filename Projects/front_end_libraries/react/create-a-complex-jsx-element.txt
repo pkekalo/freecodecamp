@@ -1,0 +1,9 @@
+const JSX = <div>
+  <h1>{"Pet Shop"}</h1>
+  <p>{"We sell many animals, here is an example of what we sell:"}</p>
+  <ul>
+    <li>{"Dog"}</li>
+    <li>{"Cat"}</li>
+    <li>{"Rat"}</li>
+  </ul>
+</div>
