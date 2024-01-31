@@ -8,7 +8,7 @@ const frontEndFrameworks = [
 ];
 
 function Frameworks() {
-  const renderFrameworks = null; // Change this line
+  const renderFrameworks = frontEndFrameworks.map(i => <li key={i}>{i}</li>); // Change this line
   return (
     <div>
       <h1>Popular Front End JavaScript Frameworks</h1>
