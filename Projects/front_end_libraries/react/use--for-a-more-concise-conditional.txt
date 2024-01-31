@@ -16,7 +16,7 @@ class MyComponent extends React.Component {
     return (
        <div>
          <button onClick={this.toggleDisplay}>Toggle Display</button>
-         <h1>Displayed!</h1>
+         {this.state.display && <h1>Displayed!</h1>}
        </div>
     );
   }
